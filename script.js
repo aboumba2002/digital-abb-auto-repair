@@ -13,7 +13,7 @@ form.addEventListener("submit", async (e) => {
 
   try {
     const response = await fetch(
-      "https://aboumba2012.app.n8n.cloud/webhook-test/auto-repair-lead",
+      "https://aboumba2012.app.n8n.cloud/webhook/auto-repair-lead",
       {
         method: "POST",
         headers: {
