@@ -27,13 +27,20 @@
   <section id="lead-form">
     <h2>Request Service</h2>
 
-    <form>
-      <input type="text" placeholder="Full Name" required />
-      <input type="tel" placeholder="Phone Number" required />
-      <input type="email" placeholder="Email Address" required />
-      <input type="text" placeholder="Vehicle Year, Make, Model" required />
-      <textarea placeholder="Describe the problem with your car" required></textarea>
+    <form id="leadForm">
+
+      <input type="text" name="name" placeholder="Full Name" required />
+
+      <input type="tel" name="phone" placeholder="Phone Number" required />
+
+      <input type="email" name="email" placeholder="Email Address" required />
+
+      <input type="text" name="vehicle" placeholder="Vehicle Year, Make, Model" required />
+
+      <textarea name="problem" placeholder="Describe the problem with your car" required></textarea>
+
       <button type="submit">Submit Request</button>
+
     </form>
   </section>
 
